@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Mina" rel="stylesheet">
+        <style>
+            #background{
+                position: center;
+                height: 100%;
+                size: 100%;
+                width: 100%;
+            }
+            body{
+                background-image: url("image/cover_page_image.jpg");
+                background-position: center;
+                background-repeat: no-repeat;   
+                background-size: cover;
+                background-attachment: fixed;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+            }
+            h1{
+                color: #950503;
+                font-size: 40px;
+                font-family: 'Mina', sans-serif;
+                line-height: 30px;
+                font-weight: 200;
+            }
+            p{
+                color: #950503;
+                font-size: 24px;
+                font-family: 'Mina', sans-serif;
+                line-height: normal;
+                font-weight: 150;
+            }
+            p1{
+                color: #950503;
+                font-size: 17px;
+                font-family: 'Mina', sans-serif;
+                line-height: normal;
+                font-weight: 150;
+            }
+            nav{
+                padding-left: 30%;
+                margin: auto;
+                width: 80%;
+                display: inline-block;
+            }
+            a{
+                color: #000000;
+                font-size: 20px;
+                font-family: 'Mina', sans-serif;
+                line-height: normal;
+                font-weight: 100;
+                text-decoration: none;
+                padding-right: 45px;
+                padding-left: 45px;
+            }
+            header{
+                display: block;
+                padding: 70px;
+            }
+            section{
+                padding: 30px;
+                margin: auto;
+                width: 40%;
+                margin-top: 150px;
+            }
+            #goTopB{
+                display: none;
+                position: fixed;
+                bottom: 15px;
+                right: 20px;
+                z-index: 99;
+                font-size: 15px;
+                border: none;
+                outline: none;
+                color: #950503;
+                cursor: pointer;
+                padding: 15px;
+                border-radius: 4px;
+            }
+        </style>
+    
+        <title>Minsun Kim</title>
+    </head>
+    <body>
+        <button onclick="goTopFuction()" id="goTopB">Top</button>
+        <header></header>
+        <nav>
+            <a href="MainPage.html">Main</a>|
+            <a href="Class_Project.html">Class Project</a>|
+            <a href="Personal_Project.html"><u>Personal Project</u></a>|
+            <a href="Resume.html">Resume</a>|
+            <a href="ContactMe.html">Contact Me</a>
+        </nav>
+        
+        <section>
+            <h1> I made my own project.</h1>
+            <p> On my github page, I uploaded my works.</p>
+            <p> 1. JDBC Parking Lot Project</p>
+            <p><a style="font-size:20px;color:#950503; font-family:'Mina', sans-serif;line-height: normal;font-weight: 150;">I made my own project by using JDBC on eclipse. When I code original parking lot project( it is on my github page under class project section), I was not able to use database system with JAVA. After I studied about JDBC, I want to remake the project. So that it could be more stable, simple, fast, and safe. Now, the program is much simple and stable. You can check it on github.</a></p>
+            <p><a href = "https://github.com/als7298/Minsun_Kim/tree/master/Personal_Projects/Parking_Lot_JDBC" style="color:#950503; font-size:17px; font-family:'Mina', sans-serif;line-height: normal;font-weight: 150;"><u>--> go now</u></a></p>
+            <p> 2. My web page </p>
+            <p><a style="font-size:20px;color:#950503; font-family:'Mina', sans-serif;line-height: normal;font-weight: 150;">I coded myself for build this web page and I upload every code and image sources on my github page.</a></p>
+            <p><a href = "https://github.com/als7298/Minsun_Kim/tree/master/Personal_Projects/My_Web_Site_HTML5" style=" color:#950503; font-size:17px; font-family:'Mina', sans-serif;line-height: normal;font-weight: 150;"><u>--> go now</u></a></p>
+           
+            
+        </section>
+        
+        <script>
+            window.onscroll = function(){goTopButton()};
+            function goTopButton(){
+                if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20){
+                    document.getElementById("goTopB").style.display = "block";
+                }else {
+                    document.getElementById("goTopB").style.display = "none";
+                }
+                
+            }
+            
+            function goTopFuction(){
+                document.body.scrollTop = 0;
+                document.documentElement.scrollTop = 0;
+            }
+        </script>
+
+    </body>
+</html>
