@@ -1,0 +1,15 @@
+Huffman Tree Project:
+
+Input File:
+	It contains a list of <char prob> pairs with the following format.
+	The input prob (probability) are integers, has been multiplied by 100. 
+	The input char should be treated as string.
+
+Output Files:
+	1. It should contain the Huffman <char code> pairs
+	2. It should contain the pre-order traversal of the Huffman binary tree.
+	3. It should contain the in-order traversal of the Huffman binary tree.
+	4. It should contain the post-order traversal of the Huffman binary tree.
+	5. It should contain the debugging output.
+
+*********************************************************************************

@@ -1,0 +1,13 @@
+listHead -> (dummy,0,d) -> (d,2, NULL) -> NULL
+listHead -> (dummy,0,d) -> (d,2,f) -> (f,4, NULL) -> NULL
+listHead -> (dummy,0,d) -> (d,2,f) -> (f,4,h) -> (h,15, NULL) -> NULL
+listHead -> (dummy,0,d) -> (d,2,f) -> (f,4,k) -> (k,6,h) -> (h,15, NULL) -> NULL
+listHead -> (dummy,0,d) -> (d,2,f) -> (f,4,k) -> (k,6,h) -> (h,15,m) -> (m,47, NULL) -> NULL
+listHead -> (dummy,0,d) -> (d,2,f) -> (f,4,k) -> (k,6,h) -> (h,15,p) -> (p,25,m) -> (m,47, NULL) -> NULL
+listHead -> (dummy,0,w) -> (w,1,d) -> (d,2,f) -> (f,4,k) -> (k,6,h) -> (h,15,p) -> (p,25,m) -> (m,47, NULL) -> NULL
+(wd:3)(f:4)(k:6)(h:15)(p:25)(m:47)
+(k:6)(wdf:7)(h:15)(p:25)(m:47)
+(kwdf:13)(h:15)(p:25)(m:47)
+(p:25)(kwdfh:28)(m:47)
+(m:47)(pkwdfh:53)
+(mpkwdfh:100)
