@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">GLM</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_check_list">CheckList</string>
+    <string name="title_activity_choosen_list">ChoosenList</string>
+    <string name="title_activity_create_list">CreateList</string>
+    <string name="title_activity_delete_list">DeleteList</string>
+    <string name="title_activity_rename_list">RenameList</string>
+</resources>
